@@ -5,15 +5,12 @@ import React from "react"
 const Header = ({ siteTitle }) => (
   <header
     style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
+      background: `#01b3e0`,
     }}
   >
-    <div
+    <nav
       style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
+        padding: `1.5rem 1.5rem`,
       }}
     >
       <h1 style={{ margin: 0 }}>
@@ -27,7 +24,7 @@ const Header = ({ siteTitle }) => (
           {siteTitle}
         </Link>
       </h1>
-    </div>
+    </nav>
   </header>
 )
 
